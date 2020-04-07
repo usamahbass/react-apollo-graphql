@@ -1,0 +1,79 @@
+.card_full {
+  width: 35%;
+
+  .card_clear_fix {
+    &::before {
+      display: table;
+      content: "";
+    }
+    .avatar {
+      display: inline-block;
+      line-height: 1;
+      overflow: hidden;
+      vertical-align: middle;
+    }
+
+    .avatar_start {
+      border: 1px solid #e1e4e8;
+      border-bottom: 0;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .card_status {
+      border: 1px solid #e1e4e8 !important;
+
+      .card_status_image {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    .card_name {
+      line-height: 1;
+
+      .span_name {
+        line-height: 30px;
+        font-size: 26px;
+      }
+
+      .span_nickname {
+        color: #666666;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        font-style: normal;
+      }
+    }
+
+    .card_bio {
+      font-weight: 200;
+      width: 73.5%;
+      overflow: hidden;
+      font-size: 14px;
+      color: #24292e;
+    }
+
+    .card_location_url {
+      font-weight: 200;
+      list-style: none;
+      padding-left: 0;
+
+      .card_list_item {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        .card_list_link {
+          color: #0366d6;
+        }
+      }
+    }
+  }
+}

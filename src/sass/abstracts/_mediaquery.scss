@@ -1,0 +1,85 @@
+// media query //
+
+@media (min-width: 1012px) {
+  .col_lg_3 {
+    width: 25%;
+  }
+
+  .col_lg_9 {
+    width: 75%;
+  }
+
+  .d_lg_flex {
+    display: flex !important;
+  }
+
+  .d_lg_none {
+    display: none !important;
+  }
+
+  .mr_lg_3 {
+    margin-right: 1rem !important;
+  }
+
+  .flex_lg_order_none {
+    order: inherit !important;
+  }
+
+  .flex_lg_row {
+    flex-direction: row !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .col_md_4 {
+    width: 33%;
+  }
+
+  .col_md_8 {
+    width: 66%;
+  }
+
+  .col_md_12 {
+    width: 100%;
+  }
+
+  .d_md_flex {
+    display: flex !important;
+  }
+
+  .mb_md_0 {
+    margin-bottom: 0 !important;
+  }
+
+  .mr_md_3 {
+    margin-right: 1rem !important;
+  }
+
+  .pb_md_3 {
+    padding-bottom: 1rem !important;
+  }
+
+  .pt_md_3 {
+    padding-top: 1rem !important;
+  }
+
+  .pl_md_0 {
+    padding-left: 0 !important;
+  }
+
+  .pl_md_2 {
+    padding-left: 0.5rem !important;
+  }
+
+  .pr_md_0 {
+    padding-right: 0 !important;
+  }
+
+  .pr_md_3 {
+    padding-right: 1rem !important;
+  }
+
+  .float_md_left {
+    float: left !important;
+  }
+}

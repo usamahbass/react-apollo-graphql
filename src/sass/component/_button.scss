@@ -1,0 +1,54 @@
+.btn {
+  position: relative;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  background-repeat: repeat-x;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 0.25em;
+  outline: none;
+  vertical-align: middle;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6, 90%);
+  color: #24292e;
+
+  &:hover {
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1, 90%);
+    background-position: 0.5em;
+    border-color: rgba(27, 31, 35, 0.35);
+    background-repeat: repeat-x;
+  }
+
+  &_green {
+    background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
+    background-color: #28a745;
+    color: #ffffff;
+  }
+
+  i {
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.75;
+  }
+
+  span {
+    color: #24292e;
+  }
+}
+
+.btn_link {
+  display: inline-block;
+  user-select: none;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: initial;
+  border: 0;
+  font-size: inherit;
+}

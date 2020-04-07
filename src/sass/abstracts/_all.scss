@@ -1,0 +1,321 @@
+// global styles //
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  vertical-align: middle;
+  text-align: center;
+}
+
+// border //
+
+.border_bottom_gray {
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+.border_color_gray {
+  border-color: #d1d5da !important;
+}
+
+// has style //
+
+.has_color_gray {
+  color: #586069 !important;
+}
+
+.has_text_right {
+  text-align: right !important;
+}
+
+// display style //
+
+.d_block {
+  display: block !important;
+}
+
+.d_flex {
+  display: flex !important;
+}
+
+.d_inline_block {
+  display: inline-block !important;
+}
+
+.d_inline_flex {
+  display: inline-flex;
+}
+
+// hidden //
+
+.o_hidden {
+  overflow: hidden;
+}
+
+// flex style //
+
+.flex_auto {
+  flex: auto !important;
+}
+
+.flex_column {
+  flex-direction: column !important;
+}
+
+.flex_row {
+  flex-direction: row !important;
+}
+
+.justify_around {
+  justify-content: space-around !important;
+}
+
+// float style //
+
+.float_left {
+  float: left !important;
+}
+
+.float_right {
+  float: right !important;
+}
+
+// font //
+
+.font_2 {
+  font-size: 12px !important;
+}
+
+.font_3 {
+  font-size: 1rem !important;
+}
+
+// margin style //
+
+.mb_1 {
+  margin-bottom: 4px !important;
+}
+
+.mb_2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb_2_5 {
+  margin-bottom: 0.75rem !important;
+}
+
+.mb_3 {
+  margin-bottom: 1rem !important;
+}
+
+.ml_0 {
+  margin-left: 0 !important;
+}
+
+.mr_1 {
+  margin-right: 0.25rem !important;
+}
+
+.mr_2 {
+  margin-right: 0.5rem !important;
+}
+
+.mt_1 {
+  margin-top: 0.25rem !important;
+}
+
+.mt_2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt_3 {
+  margin-top: 1rem !important;
+}
+
+.mr_3 {
+  margin-right: 1rem !important;
+}
+
+.mt_4 {
+  margin-top: 2rem !important;
+}
+
+// padding style //
+
+.p_2 {
+  padding: 0.5rem !important;
+}
+
+.pl_2 {
+  padding-left: 1rem !important;
+}
+
+.pl_3 {
+  padding-left: 1rem !important;
+}
+
+.pr_3 {
+  padding-right: 1rem !important;
+}
+
+.pt_1 {
+  padding-top: 4px !important;
+}
+
+.py_3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.py_4 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+// position style //
+
+.p_absolute {
+  position: absolute !important;
+}
+
+.p_fixed {
+  position: fixed !important;
+}
+
+.p_relative {
+  position: relative !important;
+}
+
+.p_static {
+  position: static !important;
+}
+
+// top, left, right, bottom //
+
+.top_0 {
+  top: 0;
+}
+
+// rounded //
+
+.rounded_bottom_1 {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.rounded_top_0 {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+// size //
+
+.h_full {
+  height: 100% !important;
+}
+
+.w_2 {
+  width: 16%;
+}
+
+.w_10 {
+  width: 83%;
+}
+
+.w_full {
+  width: 100%;
+}
+
+.w_standard {
+  width: 70% !important;
+}
+
+// media query //
+
+@media (min-width: 1012px) {
+  .col_lg_3 {
+    width: 25%;
+  }
+
+  .col_lg_9 {
+    width: 75%;
+  }
+
+  .d_lg_none {
+    display: none !important;
+  }
+
+  .mr_lg_3 {
+    margin-right: 1rem !important;
+  }
+
+  .d_flex_lg_order_none {
+    order: inherit !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .col_md_4 {
+    width: 33%;
+  }
+
+  .col_md_8 {
+    width: 66%;
+  }
+
+  .col_md_12 {
+    width: 100%;
+  }
+
+  .d_md_flex {
+    display: flex !important;
+  }
+
+  .mb_md_0 {
+    margin-bottom: 0 !important;
+  }
+
+  .mr_md_3 {
+    margin-right: 1rem !important;
+  }
+
+  .pb_md_3 {
+    padding-bottom: 1rem !important;
+  }
+
+  .pt_md_3 {
+    padding-top: 1rem !important;
+  }
+
+  .pl_md_0 {
+    padding-left: 0 !important;
+  }
+
+  .pl_md_2 {
+    padding-left: 0.5rem !important;
+  }
+
+  .pr_md_0 {
+    padding-right: 0 !important;
+  }
+
+  .pr_md_3 {
+    padding-right: 1rem !important;
+  }
+
+  .float_md_left {
+    float: left !important;
+  }
+}
